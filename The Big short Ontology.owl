@@ -1,0 +1,436 @@
+Prefix(:=<http://www.fantasticmovie.com/ontologies/thebigshort.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fantasticmovie.com/ontologies/thebigshort.owl>
+Annotation(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> "A movie based on the true story of four outsiders who saw what the big banks, media and government refused to: the global collapse of the economy. A bold investment leads them into the dark underbelly of banking, where everyone and everything is in question.")
+Annotation(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> "https://en.wikipedia.org/wiki/The_Big_Short_(film)")
+
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000003>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000029>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000035>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041>))
+Declaration(Class(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000045>))
+Declaration(Class(:Evie))
+Declaration(Class(:Karen_Gillan))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020>))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036>))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038>))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039>))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040>))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043>))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044>))
+Declaration(ObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000049>))
+Declaration(ObjectProperty(:playedIn))
+Declaration(AnnotationProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000005>))
+Declaration(AnnotationProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006>))
+Declaration(AnnotationProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000005> (Definition)
+
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000005> "Definition"@en)
+SubAnnotationPropertyOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000005> rdfs:comment)
+
+# Annotation Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> (Definition)
+
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> "Definition"@en)
+
+# Annotation Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> (Definition scource)
+
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> "Definition scource"@en)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> (hasCharacter)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> "Act the Character")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> "hasCharacter"@en)
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> (hasBoss)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> "Work for the boss")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> "hasBoss"@en)
+SubObjectPropertyOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> owl:topObjectProperty)
+InverseObjectProperties(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039>)
+FunctionalObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036>)
+TransitiveObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036>)
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> (hasCustomer)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> "provide product or service in exchange for return")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:comment <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> "In the Movie The Big Short, has customer means sell credit swarp to the customer.")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> "hasCustomer"@en)
+SubObjectPropertyOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> owl:topObjectProperty)
+InverseObjectProperties(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040>)
+FunctionalObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038>)
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> (hasEmployee)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> "hired someone")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> "hasEmployee"@en)
+InverseFunctionalObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039>)
+TransitiveObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039>)
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> (isCustomerOf)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> "being the customer of someone, means buy products or services form someone")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:comment <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> "In the Movie the Big Short, be a customer of someone means buy credit defult swap form someone to bet Against the Big Banks")
+AnnotationAssertion(rdfs:comment <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> "This relationsip is transitive since if a person's boss is customer of a salesman, he or she as a employee if also the customer of that salesman")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> "isCustomerOf"@en)
+SubObjectPropertyOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> owl:topObjectProperty)
+InverseFunctionalObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040>)
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> (betAgainst)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> "Bet against means if someone is look down something, and buy financial contract to allow them gain return if that thing lose value.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:comment <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> "In the Movie, Mark Baum , Michael Burry , Ben Rickert, Charlie Geller and Jamie Shipley buy credit default swaps to bet against big banks.")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> "betAgainst"@en)
+FunctionalObjectProperty(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043>)
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000049> owl:Thing))
+ObjectPropertyDomain(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(:playedIn owl:Thing))
+ObjectPropertyRange(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>))
+ObjectPropertyRange(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>))
+ObjectPropertyRange(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>))
+ObjectPropertyRange(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>))
+ObjectPropertyRange(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>))
+ObjectPropertyRange(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>))
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> (hasPartner)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> "has a co-owner to work with")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> "hasPartner"@en)
+
+# Object Property: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000049> (hasDirector)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000049> "being directed, being taken controlled by")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000049> "Xiaoyue Chen")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000049> "hasDirector"@en)
+
+# Object Property: :playedIn (playedIn)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> :playedIn "Acted a character in the movie")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> :playedIn "Xiaoyue Chen")
+AnnotationAssertion(rdfs:label :playedIn "playedIn")
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001> (The Big Short)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001> "A movie based on the true story of four outsiders who saw what the big banks, media and government refused to: the global collapse of the economy. A bold investment leads them into the dark underbelly of banking, where everyone and everything is in question.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001> "https://www.amazon.com/Big-Short-Christian-Bale/dp/B019969US8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001> "The Big Short"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000049> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000035>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002> (Actor)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002> "An actor (often actress for females; see terminology) is a person who portrays a character in a performance. The actor performs \"in the flesh\" in the traditional medium of the theatre or in modern mediums such as film, radio, and television. The analogous Greek term is ὑποκριτής (hupokritḗs), literally \"one who answers\". The actor's interpretation of their role pertains to the role played, whether based on a real person or fictional character. Interpretation occurs even when the actor is \"playing themselves\", as in some forms of experimental performance art or, more commonly; to act, is to create, a character in performance.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002> "https://en.wikipedia.org/wiki/Actor")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002> "Actor"@en)
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000003> (Director)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000003> "A film director is a person who directs the making of a film. A film director controls a film's artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the technical crew and actors in the fulfillment of that vision. The director has a key role in choosing the cast members, production design, and the creative aspects of filmmaking.[1]")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000003> "https://en.wikipedia.org/wiki/Film_director#cite_note-Google_Books-2
+https://careertrend.com/average-film-director-salary-per-movie-7732.html")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000003> "Director"@en)
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004> (Character)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004> "A character (sometimes known as a fictional character) is a person or other being in a narrative work of art (such as a novel, play, television series, film, or video game). The character may be entirely fictional or based on a real-life person, in which case the distinction of a \"fictional\" versus \"real\" character may be made.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004> "https://en.wikipedia.org/wiki/Character_(arts)#cite_note-DiBattista-2 
+
+Maria DiBattista (2011). Novel Characters: A Genealogy. John Wiley & Sons. pp. 14–20. ISBN 1444351559. Retrieved January 19, 2017.")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004> "Character"@en)
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007> (Christian Bale)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007> "Christian Charles Philip Bale (born 30 January 1974) is an English actor and producer.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007> "https://en.wikipedia.org/wiki/Christian_Bale")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007> "Christian Bale"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000007> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008> (Ryan Gosling)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008> "Full name, Ryan Thomas Gosling; born November 12, 1980, in London, Ontario, Canada; son of Thomas and Donna Gosling.
+
+He is a Canadian actor and musician. He began his career as a child star on the Disney Channel's The Mickey Mouse Club (1993–1995) and went on to appear in other family entertainment programs including Are You Afraid of the Dark? (1995) and Goosebumps (1996). His first starring film role was as a Jewish neo-Nazi in The Believer (2001), and he went on to star in several independent films, including Murder by Numbers (2002), The Slaughter Rule (2002), and The United States of Leland (2003).")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008> "http://www.filmreference.com/film/52/Ryan-Gosling.html
+
+https://en.wikipedia.org/wiki/Ryan_Gosling#cite_note-filmref-1")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008> "Ryan Gosling"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000008> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009> (Steve Carell)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009> "Steven John Carell (/kərˈrɛl/; born August 16, 1962)[3] is an American actor, comedian, producer, writer and director.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009> "https://en.wikipedia.org/wiki/Steve_Carell#cite_note-real_age-3")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009> "Steve Carell"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000009> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010> (Brad Pitt)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010> "William Bradley Pitt (born December 18, 1963) is an American actor and producer. He has received multiple awards and nominations including an Academy Award as producer under his own company Plan B Entertainment.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010> "https://en.wikipedia.org/wiki/Brad_Pitt")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010> "Brad Pitt"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000010> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011> (Hamish Linklater)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011> "Hamish Linklater (born July 7, 1976) is an American actor and playwright, known for playing Matthew Kimble in The New Adventures of Old Christine and Andrew Keanelly in The Crazy Ones. He is the son of dramatic vocal trainer Kristin Linklater.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011> "https://en.wikipedia.org/wiki/Hamish_Linklater")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011> "Hamish Linklater"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000011> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012> (Rafe Spall)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012> "Rafe Joseph Spall (born 10 March 1983)[1] is an English actor. He is best known for his roles in The Shadow Line, Pete versus Life, One Day, Anonymous, Prometheus, Life of Pi, and The Big Short.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012> "https://en.wikipedia.org/wiki/Rafe_Spall")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012> "Rafe Spall"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000012> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013> (Jeremy Strong)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013> "Jeremy Strong (born December 25, 1978) is an American film, television, and stage actor")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013> "http://www.nydailynews.com/entertainment/music-arts/jeremy-strong-winter-discontent-man-seasons-article-1.304376")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013> "Jeremy Strong"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000013> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014> (John Magaro)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014> "John Robert Magaro (born February 16, 1983) is an American actor.[1][2] He starred alongside James Gandolfini in Not Fade Away (2012) — the feature film debut of David Chase, creator of The Sopranos.[3][4][5] He also starred alongside Rooney Mara in Carol (2015). He made his Broadway debut as Earl Williams, the escaped convict, in the hit revival of The Front Page in 2016.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014> "https://en.wikipedia.org/wiki/John_Magaro#cite_note-Beacon_Journal-1")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014> "John Magaro"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000014> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015> (Finn Wittrock)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015> "Peter \"Finn\" Wittrock, Jr.[1] (born October 28, 1984) is an American actor and screenwriter. He began his career in guest roles on several television shows. He made his film debut in 2004, in Halloweentown High before returning to films in the 2010 film Twelve. After studying theater at The Juilliard School, he was a regular in the soap opera All My Children from 2009 to 2011, while performing in several theatrical productions. In 2011, he performed in playwright Tony Kushner's Off-Broadway play The Illusion and made his Broadway debut in 2012 as Happy Loman in the revival of Arthur Miller's play Death of a Salesman, directed by Mike Nichols.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015> "https://en.wikipedia.org/wiki/Finn_Wittrock#cite_note-1")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015> "Finn Wittrock"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000015> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017> (Aiden Flowers)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017> "Aiden James Flowers (born December 13, 2004) is a professional American actor from Mississippi.[1] He is best known for his recurring role of Young Klaus Mikaelson in the CW network series The Originals. He also appeared in the films The Big Short, Miss Peregrine's Home for Peculiar Children, and Nate Parker's The Birth of a Nation.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017> "https://en.wikipedia.org/wiki/Aiden_Flowers")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017> "Aiden Flowers"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000029>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000017> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018> (Adepero Oduye)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018> "Adepero Oduye is an American actress, director, and writer.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018> "https://en.wikipedia.org/wiki/Adepero_Oduye")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018> "Adepero Oduye"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000018> ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019> (Michael Burry)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019> "the operator of Scion Capital and the first person to discover the massive bubble in the American housing market. He invests over $1.3 billion in credit default swaps based on this assumption. Burry is quirky, socially inept, goes to work in shorts and bare feet, and much prefers working with numbers to people.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019> "Michael Burry"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021> (Jared Vennett)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021> "a low-level salesman at Deutsche Bank who stumbles upon Burry's interpretation of the housing market, and persuades Baum to buy credit default swaps from his bank, collecting commissions and fees by doing so. Vennett is egotistical, highly vain and serves as the narrator of the film.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021> "Jared Vennett"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000038> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> (Mark Baum)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> "the hot-headed head of Front Point Partners, a hedge fund which also invests millions of dollars into credit default swaps based on the advice of Jared Vennett. Baum is disgusted by the actions of his Wall Street compatriots, and is struggling to cope with his brother's suicide.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> "Mark Baum"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000040> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000021>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024> (Ben Rickert)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024> "a paranoid and germaphobic retired former trader who, like Baum, despises the financial world but goes back in as a favor to Jamie and Charlie.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024> "Ben Rickert"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000024> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025> (Porter Collins)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025> "an employee of Baum's and the most objectively normal.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025> "Porter Collins"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000025> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026> (Danny Moses)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026> "an employee of Baum's and an ardent optimist.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026> "Danny Moses"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000026> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027> (Vincent Daniel)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027> "the most rash and impulsive employee of Baum's.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027> "Vincent Daniel"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000027> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000036> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028> (Charlie Geller)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028> "co-owner of the Brownfield Fund who asks Ben to help them get a seat at the 'big-boy' table.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028> "Charlie Geller"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000029> (young Michael Burry)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000029> "Michael Burry's boybood")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000029> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000029> "young Michael Burry"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000029> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000019>)
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030> (Jamie Shipley)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030> "co-owner of the Brownfield Fund who asks Ben to help them get a seat at the 'big-boy' table.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030> "Jamie Shipley"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000043> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041>))
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000030> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000044> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000028>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032> (Kathy Tao)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032> "a Morgan Stanley employee who supervises FrontPoint and Baum.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032> "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+AnnotationAssertion(rdfs:comment <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032> "she works for the \"big banks\"")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032> "Kathy Tao"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000045>)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000032> ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000039> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000023>))
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000035> (Adam McKay)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000035> "Adam McKay (born April 17, 1968) is an American film director, producer, screenwriter, comedian, and actor. McKay served as head writer for the NBC sketch comedy series Saturday Night Live for two seasons. He directed Anchorman: The Legend of Ron Burgundy (2004), Talladega Nights: The Ballad of Ricky Bobby (2006), Step Brothers (2008), The Other Guys (2010), and Anchorman 2: The Legend Continues (2013). McKay has a creative partnership with actor Will Ferrell, with whom he has co-written and produced TV series' and films.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000035> "https://en.wikipedia.org/wiki/Adam_McKay")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000035> "Adam McKay"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000035> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000003>)
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041> (Big Banks)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041> "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services, such as wealth management, currency exchange and safe deposit boxes.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041> "https://www.investopedia.com/terms/b/bank.asp")
+AnnotationAssertion(rdfs:comment <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041> "In the Movie\" The big short \" , Big banks stands for big banks on wall street, such as JPMorgan Chase,Goldman Sachs,Morgan Stanley and so on.")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041> "Big Banks"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+
+# Class: <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000045> (Morgan Stanley)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000045> "Morgan Stanley is  a global financial services firm that, through our subsidiaries and affiliates, advises, and originates, trades, manages and distributes capital for, governments, institutions and individuals.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000045> "https://www.sec.gov/Archives/edgar/data/895421/000119312517059212/d328282d10k.htm#rom328282_3")
+AnnotationAssertion(rdfs:label <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000045> "Morgan Stanley"@en)
+SubClassOf(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000045> <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000041>)
+
+# Class: :Evie (:Evie)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> :Evie "the ex-girlfriend of Jamie's brother who leaves the SEC to find a job at an investment bank.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> :Evie "https://en.wikipedia.org/wiki/The_Big_Short_(film)#cite_note-CarellCast-8")
+SubClassOf(:Evie <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000004>)
+
+# Class: :Karen_Gillan (:Karen_Gillan)
+
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000006> :Karen_Gillan "Karen Gillan (born 28 November 1987[1]) is a British actress, director, and screenwriter from Inverness, Scotland.")
+AnnotationAssertion(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000046> :Karen_Gillan "https://en.wikipedia.org/wiki/Karen_Gillan")
+SubClassOf(:Karen_Gillan <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000002>)
+SubClassOf(:Karen_Gillan ObjectSomeValuesFrom(<http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000020> :Evie))
+SubClassOf(:Karen_Gillan ObjectSomeValuesFrom(:playedIn <http://www.fantasticmovie.com/ontologies/THEBIGSHORT_0000001>))
+
+# Class: owl:Thing (Movie)
+
+AnnotationAssertion(rdfs:label owl:Thing "Movie")
+
+
+)
